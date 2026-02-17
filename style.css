@@ -1,0 +1,113 @@
+.buttons{
+  color: black;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding:10px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.buttons:hover{
+  background-color: #c181008e;
+  font-size: 35px;
+}
+
+.Navigation{
+  position: relative;
+  text-align: right;
+  background-color: #d2d2d2;
+  padding: 15px;
+  border-bottom: 5px solid #f00202b8;
+  border-radius: 30px;
+}
+
+#Header{
+  color: #00c1c18e;
+  text-align: center;
+}
+
+.Introduction img{
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  border-radius: 10px;
+  border: 3px rgb(11, 1, 1) groove;
+}
+
+.Introduction p, h2{
+  display: block;
+  text-align: center;
+}
+
+.Footer{
+  background-color: #c19a008e;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 300px;
+}
+
+body{
+  margin: none;
+  padding: 0px;
+}
+
+.container{
+  display: grid;
+  aspect-ratio: 4 / 3;
+  grid-template-rows:repeat(2, 1fr);
+  grid-template-columns:repeat(2, 1fr);
+  gap: 0px;
+  aspect-ratio: 16/9;
+}
+
+.grid_item{
+  margin: 15px;
+  border: 3px solid;
+  display: flex;
+  width: min-content;
+  height: min-content;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  overflow: hidden;
+  transform: translate();
+  
+}
+.grid_item:hover {
+  box-shadow: 5px 5px 5px 5px rgb(42, 32, 1);
+  border-bottom: 5px solid;
+  border-radius: 15px;
+}
+
+.ProjBy img{
+  width: 200px;
+  border: 3px solid rgb(22, 61, 1);
+}
+
+.ProjBy h2{
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Contact{
+  background-color: #888c8c8e;
+  border: 2px rgb(255, 175, 2) solid;
+
+}
+
+.Contact label, input{
+  padding: 15px;
+  margin: 10px;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.Contact p{
+  font: 20px black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
